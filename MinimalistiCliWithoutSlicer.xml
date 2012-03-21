@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>Example</category>
+  <title>MinimalistiCliWithoutSlicer</title>
+  <description>MinimalistiCliWithoutSlicer is a very simple program printing the sum of two numbers.</description>
+  <version>0.0.1</version>
+  <documentation-url>http://readthedocs.org/</documentation-url>
+  <license>BSD</license>
+  <contributor>Jean-Christophe Fillion-Robin (Kitware)</contributor>
+  <acknowledgements>This work was supported by ...</acknowledgements>
+  <parameters>
+    <label>IO</label>
+    <description><![CDATA[Input/output parameters]]></description>
+    <integer>
+      <name>leftoperand</name>
+      <longflag>leftoperand</longflag>
+      <flag>l</flag>
+      <label>Left Operand</label>
+      <description><![CDATA[Left operand value]]></description>
+      <default>2</default>
+    </integer>
+    <integer>
+      <name>rightoperand</name>
+      <longflag>rightoperand</longflag>
+      <flag>r</flag>
+      <label>Right Operand</label>
+      <description><![CDATA[Right operand value]]></description>
+      <default>2</default>
+    </integer>
+  </parameters>
+</executable>
